@@ -26,8 +26,8 @@ embedder: This model is Torch-based and is responsible for extracting facial emb
 '''
 # loading face detector
 print('Loading Face Detector...')
-prototype_path = os.path.join(args['detector'], 'deploy.prototxt')
-model_path = os.path.join(args['detector'], 'res10_300x300_ssd_iter_140000.caffemodel')
+prototype_path = os.path.sep.join([args['detector'], 'deploy.prototxt'])
+model_path = os.path.sep.join([args['detector'], 'res10_300x300_ssd_iter_140000.caffemodel'])
 detector = cv2.dnn.readNetFromCaffe(prototype_path, model_path)
 
 # loading face embedding model

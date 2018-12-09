@@ -5,9 +5,13 @@
 - For full understanding of how the code works refer [here](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
 
 ### Usage
-1. You can make your custom dataset in the ```dataset``` folder.
-2. Similarly you can add test images in the ```images``` folder.
-3. Running this Script: 
+1. Run this command in your command prompt
+```bash
+pip install -r requirememts.txt
+```
+2. You can make your custom dataset in the ```dataset``` folder.
+3. Similarly you can add test images in the ```images``` folder.
+4. Running this Script: 
 	- First you have to extract embeddings of the images using the ```extract_embeddings.py``` file
 
 	```python

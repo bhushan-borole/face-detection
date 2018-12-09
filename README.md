@@ -1,5 +1,9 @@
 # Face Detection
 
+### Description
+- This is a simple face detection project using opencv in python.
+- For full understanding of how the code works refer [here](https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/)
+
 ### Usage
 1. You can make your custom dataset in the ```dataset``` folder.
 2. Similarly you can add test images in the ```images``` folder.

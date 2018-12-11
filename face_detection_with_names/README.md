@@ -1,4 +1,4 @@
-# Face Detection
+# Face Detection with names
 
 ### Description
 - This is a simple face detection project using opencv in python.
